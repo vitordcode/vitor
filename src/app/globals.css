@@ -38,11 +38,11 @@
   html {
     @apply h-full;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-grotesk
+  h1, h2, h3, h4, h5, h6, button, a {
+    @apply font-syne
   }
   p, span, input, label, textarea {
-    @apply font-inter
+    @apply font-poppins
   }
 }
 
@@ -63,4 +63,16 @@
   50% {
     background-position: 100% 50%;
   }
+}
+
+.top-radial-gradient {
+  background: radial-gradient(65.3% 95% at 50% 0%, 	rgba(34, 197, 94, 0.6) -100%, 	rgb(12, 10, 9) 100%);
+}
+
+.radial-gradient {
+  background: radial-gradient(55.3% 75% at 50% 100%, 	rgb(34, 197, 94) -100%, 	rgb(12, 10, 9) 100%);
+}
+
+.linear-gradient {
+  background: linear-gradient(90deg,rgb(12, 10, 9)0%,		rgb(74, 222, 128)49.55693581780538%,rgb(12, 10, 9)100%);
 }

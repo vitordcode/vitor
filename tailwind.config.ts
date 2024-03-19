@@ -16,8 +16,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      inter: ['var(--font-inter)'],
+      poppins: ['var(--font-poppins)'],
       grotesk: ['var(--font-grotesk)'],
+      syne: ['var(--font-syne)'],
     },
     extend: {
       colors: {
